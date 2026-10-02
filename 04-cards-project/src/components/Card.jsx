@@ -1,22 +1,22 @@
 import React from 'react'
 import {Bookmark} from 'lucide-react'
 
-const card = () => {
+const Card = (props) => {
   return (
     <div>
 
   <div className="card">
             <div className="top">
-                <img src="https://i.pinimg.com/originals/01/ca/da/01cada77a0a7d326d85b7969fe26a728.jpg" alt="" />
+                <img src={props.brandLogo} alt="" />
                 <button>Save <Bookmark size={12} /></button>
               </div>
 
               <div className="center">
-              <h2>Amazon <span>5 days ago</span></h2>
-              <h2>Senior UI/UX Designer</h2>
+              <h2>{props.companyName} <span>{props.datePosted}</span></h2>
+              <h2>{props.post}</h2>
                    <div className = "Tag">
-                <h4>Part Time</h4>
-                <h4>Senior Level</h4>
+                <h4>{props.tag1}</h4>
+                <h4>{props.tag2}</h4>
 
                   </div>
               </div>
@@ -25,8 +25,8 @@ const card = () => {
               <div className="bottom">
                   <div>
                       
-                        <h2><b>$120/hr</b></h2>
-                        <p>Mumbai, India</p>
+                        <h2><b>{props.pay}</b></h2>
+                        <p>{props.location}</p>
                       
                   </div>
                    <button>Apply Now</button>
