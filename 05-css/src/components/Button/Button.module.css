@@ -1,0 +1,13 @@
+.btn{
+    width: fit-content;
+    background-color: rgb(6, 63, 116);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+
+
+}
+
+
+
+/* Hum Button.module.css use karte hain taaki us component ki CSS classes locally scoped rahein aur doosre components ki classes ke saath conflict na karein. */
