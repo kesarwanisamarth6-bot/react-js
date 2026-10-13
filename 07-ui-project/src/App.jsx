@@ -36,12 +36,16 @@ const App = () => {
   tag: 'Young Professionals',
   color: '#B77936'
 },
+
+
 {
   img: 'https://plus.unsplash.com/premium_photo-1661594430156-6d5973b67131?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
   intro: 'Olivia creates accessible banking experiences that help people save, invest, and manage money effortlessly.',
   tag: 'Digital Banking Users',
   color: '#6B8E78'
 }
+
+
 
   ]
   return (
